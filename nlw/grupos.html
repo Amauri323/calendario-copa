@@ -1,0 +1,846 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calendário de Jogos - Copa Qatar 2022</title>
+    <link rel="stylesheet" href="./style.css" />
+    
+    
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  </head>
+
+  <body class="blue">
+    <div id="app">
+      <header>
+        <img src="./img/logo-fifa2.png" alt="Logo da NLW" />
+        <h2 class="name-title">Fase classificação</h2>
+        <br>
+        <div>
+          <p class="name-title"> 
+            <nav class="navbar navbar-inverse">
+              <div class="container-fluid">
+                <div class="navbar-header">
+                  <a class="navbar-brand" href=""><img src="./img/favicon.png" alt=""></a>
+                </div>
+                <ul class="nav navbar-nav">
+                  <li><a href="./grupos.html">Grupos</a></li>
+                  <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Jogos <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                      <li><a href="./index.html">1º - Rodada</a></li>
+                      <li><a href="./rodada 2.html">2º - Rodada</a></li>
+                      <li><a href="./rodada 3.html">3º - Rodada</a></li>
+                    </ul>
+                  </li>
+                  <li><a href="./oitavas.html">Fase finais</a></li>
+                  
+                </ul>
+              </div>
+            </nav>
+          </p>
+        </div>
+      </header>
+      <main id="cards"></main>
+    </div>
+    <!--tabela de classificação-->
+    
+    <div class="centralizar">
+      <table class="tabela">
+        <thead>
+          <th></th>
+          <th></th>
+          <th></th>
+          <th></th>
+          <th>Grupo&nbsp;A</th>
+          <th></th>
+          <th></th>
+          <th></th>
+          <th></th>
+          <th></th>
+          <tr>
+            <th>Equipe</th>
+              <th>Pts</th>
+              <th>PJ</th>
+              <th>VIT</th>
+              <th>E</th>
+              <th>DER</th>
+              <th>GP</th>
+              <th>GC</th>
+              <th>SG</th>
+              <th>%</th>
+            </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>
+              <div class="centralizar-bandeira"><img class="bandeiras px30"
+                src="./assets/icon-qatar.svg" alt="Catar"
+                title="Catar"><b>Catar</b>
+              </div>
+            </td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>100%</td>
+          </tr>
+          <tr>
+            <td>
+              <div class="centralizar-bandeira"><img class="bandeiras px30"
+                src="./assets/icon-ecuador.svg" alt="Equador"
+                title="Equador"><b>Equador</b>
+              </div>
+            </td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>100%</td>
+          </tr>
+          <tr>
+            <td>
+              <div class="centralizar-bandeira"><img class="bandeiras px30"
+                src="./assets/icon-senegal.svg" alt="Senegal"
+                height="60px"><b>Senegal</b>
+              </div>
+            </td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>100%</td>
+          </tr>
+          <tr>
+            <td>
+              <div class="centralizar-bandeira"><img class="bandeiras px30"
+                src="./assets/icon-netherlands.svg" alt="Holanda"
+                height="60px" title="Holanda"><b>Holanda</b>
+              </div>
+            </td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>100%</td>
+          </tr>
+        </tbody>
+      </table>
+      &nbsp;&nbsp;
+      <table class="tabela">
+        <thead>
+          <th></th>
+          <th></th>
+          <th></th>
+          <th></th>
+          <th>Grupo&nbsp;B</th>
+          <th></th>
+          <th></th>
+          <th></th>
+          <th></th>
+          <th></th>
+          <tr>
+            <th>Equipe</th>
+            <th>Pts</th>
+            <th>PJ</th>
+            <th>VIT</th>
+            <th>E</th>
+            <th>DER</th>
+            <th>GP</th>
+            <th>GC</th>
+            <th>SG</th>
+            <th>%</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>
+              <div class="centralizar-bandeira"><img class="bandeiras px30"
+                src="./assets/icon-england.svg" alt="Inglaterra"
+                title="Catar"><b>Inglaterra</b>
+              </div>
+              </td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+              <td>100%</td>
+            </tr>
+            <tr>
+              <td>
+                <div class="centralizar-bandeira"><img class="bandeiras px30"
+                  src="./assets/icon-iran.svg" alt="itan"
+                  title="Equador"><b>Irã</b>
+                </div>
+              </td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+              <td>100%</td>
+            </tr>
+            <tr>
+              <td>
+                <div class="centralizar-bandeira"><img class="bandeiras px30"
+                  src="./assets/icon-united states.svg" alt="estados unido"
+                  height="60px"></div>
+                  <b>Estado&nbsp;Unidos</b>
+                </div>
+              </td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+              <td>100%</td>
+            </tr>
+            <tr>
+              <td>
+                <div class="centralizar-bandeira"><img class="bandeiras px30"
+                  src="./assets/icon-wales.svg" alt="wales"
+                  height="60px" title="País de Gales"><b>Holanda</b>
+                </div>
+              </td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+              <td>100%</td>
+            </tr>
+          </tr>
+        </tbody>
+      </table>  
+    </div>
+    <!--d-->
+    <div class="centralizar">
+      <table class="tabela">
+        <thead>
+          <th></th>
+          <th></th>
+          <th></th>
+          <th></th>
+          <th>Grupo&nbsp;C</th>
+          <th></th>
+          <th></th>
+          <th></th>
+          <th></th>
+          <th></th>
+          <tr>
+            <th>Equipe</th>
+            <th>Pts</th>
+            <th>PJ</th>
+            <th>VIT</th>
+            <th>E</th>
+            <th>DER</th>
+            <th>GP</th>
+            <th>GC</th>
+            <th>SG</th>
+            <th>%</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>
+              <div class="centralizar-bandeira"><img class="bandeiras px30"
+                src="./assets/icon-argentina.svg" alt="argentina"
+                title="Catar"><b>Argentina</b>
+              </div>
+            </td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>100%</td>
+          </tr>
+          <tr>
+            <td>
+              <div class="centralizar-bandeira"><img class="bandeiras px30"
+                src="./assets/icon-mexico.svg" alt="mexico"
+                title="Equador"><b>México</b>
+              </div>
+            </td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>100%</td>
+          </tr>
+          <tr>
+            <td>
+              <div class="centralizar-bandeira"><img class="bandeiras px30"
+                src="./assets/icon-poland.svg" alt="poland"
+                height="60px"><b>Polônia</b>
+              </div>
+            </td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>100%</td>
+          </tr>
+          <tr>
+            <td>
+              <div class="centralizar-bandeira"><img class="bandeiras px30"
+                src="./assets/icon-saudi arabia.svg" alt="saudi arabia"
+                height="60px"><b>Arábia&nbsp;Saudita</b>
+              </div>
+            </td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>100%</td>
+          </tr>
+        </tbody>
+      </table>
+      &nbsp;&nbsp;
+      <table class="tabela">
+        <thead>
+          <th></th>
+          <th></th>
+          <th></th>
+          <th></th>
+          <th>Grupo&nbsp;D</th>
+          <th></th>
+          <th></th>
+          <th></th>
+          <th></th>
+          <th></th>
+          <tr>
+            <th>Equipe</th>
+            <th>Pts</th>
+            <th>PJ</th>
+            <th>VIT</th>
+            <th>E</th>
+            <th>DER</th>
+            <th>GP</th>
+            <th>GC</th>
+            <th>SG</th>
+            <th>%</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>
+              <div class="centralizar-bandeira"><img class="bandeiras px30"
+                src="./assets/icon-australia.svg" alt="australia"
+                title="Catar"><b>Australia</b>
+              </div>
+            </td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>100%</td>
+          </tr>
+          <tr>
+            <td>
+              <div class="centralizar-bandeira"><img class="bandeiras px30"
+                src="./assets/icon-denmark.svg" alt="denmark"
+                title="Equador"><b>Dinamarca</b>
+              </div>
+            </td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>100%</td>
+          </tr>
+          <tr>
+            <td>
+              <div class="centralizar-bandeira"><img class="bandeiras px30"
+                src="./assets/icon-france.svg" alt="france"
+                height="60px"><b>França</b>
+              </div>
+            </td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>100%</td>
+          </tr>
+          <tr>
+            <td>
+              <div class="centralizar-bandeira"><img class="bandeiras px30"
+                src="./assets/icon-tunisia.svg" alt="tunisia"
+                height="60px"><b>Tunisia</b>
+              </div>
+            </td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>100%</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <!--d-->
+    <div class="centralizar">
+      <table class="tabela">
+        <thead>
+          <th></th>
+          <th></th>
+          <th></th>
+          <th></th>
+          <th>Grupo&nbsp;E</th>
+          <th></th>
+          <th></th>
+          <th></th>
+          <th></th>
+          <th></th>
+          <tr>
+            <th>Equipe</th>
+            <th>Pts</th>
+            <th>PJ</th>
+            <th>VIT</th>
+            <th>E</th>
+            <th>DER</th>
+            <th>GP</th>
+            <th>GC</th>
+            <th>SG</th>
+            <th>%</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>
+              <div class="centralizar-bandeira"><img class="bandeiras px30"
+                src="./assets/icon-spain.svg" alt="spain"
+                title="Spain"><b>Espanha</b>
+              </div>
+            </td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>100%</td>
+          </tr>
+          <tr>
+            <td>
+              <div class="centralizar-bandeira"><img class="bandeiras px30"
+                src="./assets/icon-costa rica.svg" alt="costa rica"
+                title="costa rica"><b>costa rica</b>
+              </div>
+            </td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>100%</td>
+          </tr>
+          <tr>
+            <td>
+              <div class="centralizar-bandeira"><img class="bandeiras px30"
+                src="./assets/icon-germany.svg" alt="germany"
+                height="60px"><b>Alemanha</b>
+              </div>
+            </td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>100%</td>
+          </tr>
+          <tr>
+            <td>
+              <div class="centralizar-bandeira"><img class="bandeiras px30"
+                src="./assets/icon-japan.svg" alt="japan"
+                height="60px"><b>Japão</b>
+              </div>
+            </td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>100%</td>
+          </tr>
+        </tbody>
+      </table>
+      &nbsp;&nbsp;
+      <table class="tabela">
+        <thead>
+          <th></th>
+          <th></th>
+          <th></th>
+          <th></th>
+          <th>Grupo&nbsp;F</th>
+          <th></th>
+          <th></th>
+          <th></th>
+          <th></th>
+          <th></th>
+          <tr>
+            <th>Equipe</th>
+            <th>Pts</th>
+            <th>PJ</th>
+            <th>VIT</th>
+            <th>E</th>
+            <th>DER</th>
+            <th>GP</th>
+            <th>GC</th>
+            <th>SG</th>
+            <th>%</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>
+              <div class="centralizar-bandeira"><img class="bandeiras px30"
+                src="./assets/icon-belgium.svg" alt="belgium"
+                title="belgium"><b>Bélgica</b>
+              </div>
+            </td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>100%</td>
+          </tr>
+          <tr>
+            <td>
+              <div class="centralizar-bandeira"><img class="bandeiras px30"
+                src="./assets/icon-canada.svg" alt="canada"
+                title="Equador"><b>Canadá</b>
+              </div>
+            </td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>100%</td>
+          </tr>
+          <tr>
+            <td>
+              <div class="centralizar-bandeira"><img class="bandeiras px30"
+                src="./assets/icon-morocco.svg" alt="morocco"
+                height="60px"><b>Marrocos</b>
+              </div>
+            </td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>100%</td>
+          </tr>
+          <tr>
+            <td>
+              <div class="centralizar-bandeira"><img class="bandeiras px30"
+                src="./assets/icon-croatia.svg" alt="croatia"
+                height="60px"><b>Croácia</b>
+              </div>
+            </td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>100%</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <!--d-->
+    <div class="centralizar">
+      <table class="tabela">
+        <thead>
+          <th></th>
+          <th></th>
+          <th></th>
+          <th></th>
+          <th>Grupo&nbsp;G</th>
+          <th></th>
+          <th></th>
+          <th></th>
+          <th></th>
+          <th></th>
+          <tr>
+            <th>Equipe</th>
+            <th>Pts</th>
+            <th>PJ</th>
+            <th>VIT</th>
+            <th>E</th>
+            <th>DER</th>
+            <th>GP</th>
+            <th>GC</th>
+            <th>SG</th>
+            <th>%</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>
+              <div class="centralizar-bandeira"><img class="bandeiras px30"
+                src="./assets/icon-brazil.svg" alt="brazil"
+                title="brazil"><b>Brasil</b>
+              </div>
+            </td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>100%</td>
+          </tr>
+          <tr>
+            <td>
+              <div class="centralizar-bandeira"><img class="bandeiras px30"
+                src="./assets/icon-serbia.svg" alt="serbia"
+                title="serbia"><b>Sérvia</b>
+              </div>
+            </td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>100%</td>
+          </tr>
+          <tr>
+            <td>
+              <div class="centralizar-bandeira"><img class="bandeiras px30"
+                src="./assets/icon-switzerland.svg" alt="switzerland"
+                height="60px"><b>Suiça</b>
+              </div>
+            </td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>100%</td>
+          </tr>
+          <tr>
+            <td>
+              <div class="centralizar-bandeira"><img class="bandeiras px30"
+                src="./assets/icon-cameroon.svg" alt="cameroon"
+                height="60px"><b>Camarões</b>
+              </div>
+            </td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>100%</td>
+          </tr>
+        </tbody>
+      </table>
+      &nbsp;&nbsp;
+      <table class="tabela">
+        <thead>
+          <th></th>
+          <th></th>
+          <th></th>
+          <th></th>
+          <th>Grupo&nbsp;H</th>
+          <th></th>
+          <th></th>
+          <th></th>
+          <th></th>
+          <th></th>
+          <tr>
+            <th>Equipe</th>
+            <th>Pts</th>
+            <th>PJ</th>
+            <th>VIT</th>
+            <th>E</th>
+            <th>DER</th>
+            <th>GP</th>
+            <th>GC</th>
+            <th>SG</th>
+            <th>%</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>
+              <div class="centralizar-bandeira"><img class="bandeiras px30"
+                src="./assets/icon-portugal.svg" alt="portugal"
+                title="portugal"><b>Portugal</b>
+              </div>
+            </td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>100%</td>
+          </tr>
+          <tr>
+            <td>
+              <div class="centralizar-bandeira"><img class="bandeiras px30"
+                src="./assets/icon-ghana.svg" alt="ghana"
+                title="ghana"><b>Gana</b>
+              </div>
+            </td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>100%</td>
+          </tr>
+          <tr>
+            <td>
+              <div class="centralizar-bandeira"><img class="bandeiras px30"
+                src="./assets/icon-uruguai.svg" alt="uruguai"
+                height="60px"><b>Uruguai</b>
+              </div>
+            </td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>100%</td>
+          </tr>
+          <tr>
+            <td>
+              <div class="centralizar-bandeira"><img class="bandeiras px30"
+                src="./assets/icon-south korea.svg" alt="south korea"
+                height="60px"><b>Coreia&nbsp;do&nbsp;Sul</b>
+              </div>
+            </td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>100%</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+  </body>
+</html>
