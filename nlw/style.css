@@ -7,7 +7,8 @@
 :root {
   --card-title-border-color: #746615;
   --card-color-primary: #f7dd43;
-  --card-bg-color: #1d1c19;
+  --card-bg-color: #191c1d;
+  --card-bg-color2: #060f8859;
   --bg: url(./assets/bg-yellow.svg);
   --rosa: #ff0057;
   --amarelo: #ffbf00;
@@ -29,7 +30,7 @@ body.blue {
   --card-title-border-color: #338af3;
   --card-color-primary: #338af3;
   --card-bg-color: #202024;
-  --bg: url(./assets/bg-blue.svg);
+  --bg: url(./img/Background.svg);
 }
 
 body.green {
@@ -72,7 +73,7 @@ header {
   padding: 32px 23px;
   text-align: center;
 
-  background: var(--card-bg-color);
+  background: var(--qatarEscuro);
   border-bottom: 2px solid var(--card-color-primary);
   border-radius: 6px;
 }
@@ -462,4 +463,11 @@ div>tabela {
 .tabela-grupos{
   height: 300px;
   width: 300px;
+}
+
+.nav navbar-nav{
+  background-color: #2b070e;
+}
+.navbar navbar-light{
+  color: var(--qatarClaro);
 }
