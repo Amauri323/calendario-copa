@@ -169,6 +169,19 @@ header {
   text-decoration: none;
 }
 
+.title-grupo {
+  color: #FFF;
+  text-align: center;
+}
+.nav navbar-nav-g{
+  text-align: center;
+}
+
+.separador {
+  margin-left: 450px;
+  max-height: 10px;
+}
+
 table {
 
   margin: 0px 50vh;
