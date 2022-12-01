@@ -25,12 +25,12 @@ function createCard(info, day, games) {
 
 document.querySelector("#cards").innerHTML =
   createCard("Jogo 1 e 2 - 03/12", "Sábado", 
-  createGame("1º G A", "12:00", "2º G B") +
-  createGame("1º G C", "16:00", "2º G D") 
+  createGame("netherlands", "12:00", "united states") +
+  createGame("argentina", "16:00", "australia") 
   ) + 
   createCard("Jogo 3 e 4- 04/12", "Domingo", 
-  createGame("1º G D", "12:00", "2º G C") +
-  createGame("1º G B", "16:00", "2º G A")
+  createGame("france", "12:00", "poland") +
+  createGame("england", "16:00", "senegal")
   ) + 
   createCard("Jogo 5 3 6 - 05/12", "Segunda", 
   createGame("1º G E", "12:00", "2º G F") +
