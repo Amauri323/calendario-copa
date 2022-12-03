@@ -34,9 +34,9 @@ document.querySelector("#cards").innerHTML =
   ) + 
   createCard("Jogo 5 3 6 - 05/12", "Segunda", 
   createGame("japan", "12:00", "croatia") +
-  createGame("1º G G", "16:00", "2º G H")
+  createGame("brazil", "16:00", "south korea")
   ) +
   createCard("Jogo 7 e 8 - 06/12", "Terça", 
   createGame("morocco", "12:00", "spain") +
-  createGame("1º G H", "16:00", "2º G G")
+  createGame("portugal", "16:00", "switzerland")
   )
