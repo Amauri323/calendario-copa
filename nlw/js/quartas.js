@@ -30,5 +30,5 @@ document.querySelector("#cards").innerHTML =
   ) + 
   createCard("Jogo 11 e 12 - 10/12", "Sábado", 
   createGame("Vencedor jogo 7", "12:00", "Vencedor jogo 8") +
-  createGame("Vencedor jogo 3", "16:00", "Vencedor jogo 4")
+  createGame("france", "16:00", "england")
   ) 

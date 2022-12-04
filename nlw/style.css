@@ -169,6 +169,10 @@ header {
   text-decoration: none;
 }
 
+.img {
+  image-resolution: 1024px;
+}
+
 .title-grupo {
   color: #FFF;
   text-align: center;
